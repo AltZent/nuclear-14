@@ -68,20 +68,6 @@
     prototypes:
       - N14MobBrahdoLightLegion
 
-- type: entity
-  name: Brahdo Spawner
-  id: N14SpawnMobBrahdoLightTribal
-  parent: MarkerBase
-  suffix: Tribal
-  components:
-  - type: Sprite
-    layers:
-      - state: green
-      - state: ai
-  - type: ConditionalSpawner
-    prototypes:
-      - N14MobBrahdoLighttribal
-
 # Swampers
 
 - type: entity
@@ -130,20 +116,3 @@
   - type: ConditionalSpawner
     prototypes:
       - N14MobJackal
-
-# Ice
-
-- type: entity
-  name: Deathclaw Ice Spawner
-  id: N14SpawnDeathclawicy
-  parent: MarkerBase
-  components:
-  - type: Sprite
-    layers:
-      - state: green
-      - sprite: Corvax/Mobs/Animals/icynail.rsi
-        state: deathclaw
-      - state: ai
-  - type: ConditionalSpawner
-    prototypes:
-      - N14MobDeathclawicy

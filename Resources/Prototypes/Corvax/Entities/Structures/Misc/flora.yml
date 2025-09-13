@@ -2,7 +2,7 @@
   parent: BaseTree
   id: ForgeDeadTree1
   name: мёртвое дерево
-  description: Старое, мёртвое дерево, выжженое солнцем и радиоактивной пустошью.
+  description: Старое, мёртвое дерево, выжженое солнцем и радиактивной пустошью.
   components:
   - type: Sprite
     sprite: Corvax/Structures/Misc/deadtree.rsi

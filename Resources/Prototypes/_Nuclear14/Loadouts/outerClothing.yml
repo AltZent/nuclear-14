@@ -28,15 +28,15 @@
   items:
     - N14ClothingOuterJacketLettermanBrown
 
-- type: loadout
-  id: N14LoadoutOuterRobeConusrobe
-  category: Outer
-  cost: 5
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: N14LoadoutOuter
-  items:
-    -  N14ClothingOuterConusrobe   # Forge-Change замена на фанаткую версию
+#- type: loadout
+#  id: N14LoadoutOuterRobeConusrobe
+#  category: Outer
+# cost: 5
+#  requirements:
+#    - !type:CharacterItemGroupRequirement
+#      group: N14LoadoutOuter
+# items:
+#    -  N14ClothingOuterConusrobe   # Forge-Change замена на фанаткую версию
 
 - type: loadout
   id: N14ClothingOuterFlannelRed
