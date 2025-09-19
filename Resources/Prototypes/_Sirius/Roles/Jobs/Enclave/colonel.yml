@@ -26,8 +26,12 @@
   alwaysUseSpawner: true
   icon: "JobIconEnclave"
   supervisors: job-supervisors-enclave-commander
-  accessGroups:
+  access:
   - Enclave
+  - EnclaveSergeant
+  - EnclaveScientist
+  - EnclaveOfficer
+  - EnclaveColonel
   special:
   - !type:AddComponentSpecial
     components:

@@ -15,7 +15,7 @@
   name: id-card-access-level-enclave-scientist
 
 - type: accessLevel
-  id: EnclaveFaction
+  id: Enclave
   name: id-card-access-level-enclave
 
 - type: accessGroup
