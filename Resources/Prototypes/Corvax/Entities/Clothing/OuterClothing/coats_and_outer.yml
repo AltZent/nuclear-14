@@ -15,22 +15,3 @@
         Slash: 0.85
         Piercing: 0.9
         Heat: 0.85
-
-- type: entity
-  parent: ClothingOuterHardsuitBase
-  id: N14ClothingOuterRadSuitEnclave
-  name: radiation suit Enclave
-  description: Designed to protect its wearer from radiation.
-  components:
-  - type: Sprite
-    sprite: Corvax/Clothing/OuterClothing/Coats_and_outer/enclaverad.rsi
-  - type: Clothing
-    sprite: Corvax/Clothing/OuterClothing/Coats_and_outer/enclaverad.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Heat: 0.90
-        Radiation: 0.001
-  - type: ToggleableClothing
-    clothingPrototype: N14ClothingHeadHatHelmetRadHelmetEnclave
-    slot: head

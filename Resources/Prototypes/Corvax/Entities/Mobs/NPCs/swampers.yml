@@ -27,7 +27,7 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      300: Dead
+      150: Dead
   - type: DamageStateVisuals
     states:
       Alive:
@@ -46,8 +46,8 @@
     wideAnimation: WeaponArcClaw
     damage:
       types:
-        Slash: 4
-        Piercing: 16
+        Slash: 2
+        Piercing: 8
   - type: Butcherable
     spawned:
     - id: N14FoodMeatMirelurkClaw
