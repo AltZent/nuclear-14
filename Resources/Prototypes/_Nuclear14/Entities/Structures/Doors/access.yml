@@ -493,45 +493,45 @@
     layoutId: HighSec
 
 #MARK: Caravan Company
-#- type: entity
-#  parent: N14DoorWoodSecure
-#  id: N14DoorWoodSecureLockedCaravanGuard
-#  suffix: Caravan Guard, Locked
-#  components:
-#  - type: AccessReader
-#    access: [["CaravanCompanyGuard"]]
-#  - type: Wires
-#    layoutId: AirlockService
-#
-#- type: entity
-#  parent: N14DoorCellMetal
-#  id: N14DoorCellMetalLockedCaravanGuard
-#  suffix: Caravan Guard, Locked
-#  components:
-#  - type: AccessReader
-#    access: [["CaravanCompanyGuard"]]
-#  - type: Wires
-#    layoutId: AirlockService
-#
-#- type: entity
-#  parent: N14DoorWoodSecure
-#  id: N14DoorWoodSecureLockedCaravanTrader
-#  suffix: Caravan Trader, Locked
-#  components:
-#  - type: AccessReader
-#    access: [["CaravanCompanyTrader"]]
-#  - type: Wires
-#    layoutId: AirlockService
-#
-#- type: entity
-#  parent: N14DoorWoodSecure
-#  id: N14DoorWoodSecureLockedCaravanLeader
-#  suffix: Caravan Leader, Locked
-#  components:
-#  - type: AccessReader
-#    access: [["CaravanCompanyLeader"]]
-#  - type: Wires
-#    layoutId: AirlockService
+- type: entity
+  parent: N14DoorWoodSecure
+  id: N14DoorWoodSecureLockedCaravanGuard
+  suffix: Caravan Guard, Locked
+  components:
+  - type: AccessReader
+    access: [["CaravanCompanyGuard"]]
+  - type: Wires
+    layoutId: AirlockService
+
+- type: entity
+  parent: N14DoorCellMetal
+  id: N14DoorCellMetalLockedCaravanGuard
+  suffix: Caravan Guard, Locked
+  components:
+  - type: AccessReader
+    access: [["CaravanCompanyGuard"]]
+  - type: Wires
+    layoutId: AirlockService
+
+- type: entity
+  parent: N14DoorWoodSecure
+  id: N14DoorWoodSecureLockedCaravanTrader
+  suffix: Caravan Trader, Locked
+  components:
+  - type: AccessReader
+    access: [["CaravanCompanyTrader"]]
+  - type: Wires
+    layoutId: AirlockService
+
+- type: entity
+  parent: N14DoorWoodSecure
+  id: N14DoorWoodSecureLockedCaravanLeader
+  suffix: Caravan Leader, Locked
+  components:
+  - type: AccessReader
+    access: [["CaravanCompanyLeader"]]
+  - type: Wires
+    layoutId: AirlockService
 
 #MARK: Keylocked
 
